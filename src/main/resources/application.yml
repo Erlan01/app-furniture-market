@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/app_furniture_market
+    username: postgres
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
